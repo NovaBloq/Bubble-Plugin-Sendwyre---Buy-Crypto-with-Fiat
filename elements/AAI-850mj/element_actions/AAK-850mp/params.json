@@ -1,0 +1,47 @@
+{
+    "caption": "Pay Wyre",
+    "doc": "",
+    "fields": {
+        "AAL": {
+            "caption": "Wyre Account Number",
+            "doc": "Account identifier of the owner of the authentication",
+            "editor": "DynamicValue",
+            "name": "wyre_account_number",
+            "optional": false,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAl": {
+            "caption": "Amount",
+            "doc": "Order amount (without rates locking)",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAm": {
+            "caption": "Destination",
+            "doc": "SRN of appropriate destination",
+            "editor": "DynamicValue",
+            "name": "dest",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAn": {
+            "caption": "Destination Currency",
+            "doc": "Destination currency to be supplied",
+            "editor": "DynamicValue",
+            "name": "destcurrency",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAo": {
+            "caption": "Source Currency",
+            "doc": "Such as USD, GBP, EUR, CAD, AUD (any presentment currency)",
+            "editor": "DynamicValue",
+            "name": "sourcecurrency",
+            "rank": 4,
+            "value": "text"
+        }
+    }
+}

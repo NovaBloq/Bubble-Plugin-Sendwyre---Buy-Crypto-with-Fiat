@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "payment",
+        "1": "ecommerce"
+    },
+    "demo_page": "https://web3plugins.bubbleapps.io/version-test/wyre_checkout",
+    "description": "Use fiat to purchase cryptocurrency with the world’s most popular payment methods.\n\nYou can offer your customers a fast and secure way to purchase cryptocurrency eliminating the need to build your own KYC process or checkout UI.\n\nDemo:\nhttps://web3plugins.bubbleapps.io/version-test/wyre_checkout\n\n\n------------------------------------------------------------------------------\nJoin the Web3 NoCode community on Discord: https://discord.gg/GHSTa8H8Cb\n------------------------------------------------------------------------------",
+    "image": "//s3.amazonaws.com/appforest_uf/f1651836722800x636853638876202100/Wyre_%D1%81%D1%80%D1%83%D1%81%D0%BB%D1%89%D0%B3%D0%B5.png",
+    "license": "open_source",
+    "link": "https://docs.sendwyre.com/docs/wyre-checkout-1",
+    "name": "Sendwyre - Buy Crypto with Fiat",
+    "plugin_instructions": "Create an account here: \nhttps://dashv2.sendwyre.com/auth/sign-in\n\nGet an API key from your dashboard",
+    "sa_node_version": 18
+}

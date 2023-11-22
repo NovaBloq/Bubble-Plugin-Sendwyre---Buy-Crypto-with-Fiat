@@ -1,0 +1,102 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 40
+    },
+    "display": "Wyre Crypto Checkout",
+    "events": {
+        "AAU": {
+            "caption": "Wyre Payment Success",
+            "name": "payment_success"
+        },
+        "AAV": {
+            "caption": "Wyre Payment Failed",
+            "name": "wyre_payment_failed"
+        }
+    },
+    "fields": {
+        "AAY": {
+            "caption": "Environment",
+            "default_val": "Production",
+            "doc": "",
+            "editor": "Dropdown",
+            "name": "environment",
+            "options": "Production,Test",
+            "rank": 0
+        }
+    },
+    "icon": "ion-cash",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAN": {
+            "caption": "Payment Link",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n    \n\n\n}"
+            },
+            "name": "link",
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "Order ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "order_id",
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "Account ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "account_id",
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Destination",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "destination",
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "Transfer ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "transfer_id",
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "Fees",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "fees",
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "Amount",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "amount",
+            "value": "number"
+        },
+        "AAZ": {
+            "caption": "error",
+            "doc": "",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error",
+            "value": "text"
+        }
+    }
+}

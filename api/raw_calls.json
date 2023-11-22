@@ -1,0 +1,42 @@
+{
+    "auth": "private_key_header",
+    "calls": {
+        "AAC": {
+            "body": "",
+            "initialized": true,
+            "method": "post",
+            "name": "Initialize Payment",
+            "params": {
+                "AAG": {
+                    "key": "referrerAccountId",
+                    "private": true,
+                    "value": "AC_24YZGXBCHLD"
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1651059896805x553405316398055400.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Initialize Payment\",\"fields\":{\"_p_url\":{\"ret_value\":\"text\",\"caption\":\"url\",\"sample_value\":\"https://pay.testwyre.com/purchase?accountId=AC_24YZGXBCHLD&reservation=ZHNNMNJWVJ2H8PYEJHMG&utm_campaign=AC_24YZGXBCHLD&utm_medium=widget&utm_source=checkout\",\"path\":[\"url\"]},\"_p_reservation\":{\"ret_value\":\"text\",\"caption\":\"reservation\",\"sample_value\":\"ZHNNMNJWVJ2H8PYEJHMG\",\"path\":[\"reservation\"]}}}}",
+            "url": "https://api.[Environment]wyre.com/v3/orders/reserve",
+            "url_params": {
+                "AAk": {
+                    "doc": "send - For Production\ntest - For Test environment",
+                    "key": "Environment",
+                    "private": true,
+                    "value": "test"
+                }
+            }
+        }
+    },
+    "human": "Wyre Crypto Checkout",
+    "shared_headers": {
+        "AAE": {
+            "key": "Content-Type",
+            "private": true,
+            "value": "application/json",
+            "visibility": "hidden"
+        }
+    },
+    "token_param_name": "Authorization"
+}
